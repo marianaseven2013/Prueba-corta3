@@ -1,0 +1,135 @@
+.img-perfil {
+    width: 25rem;
+    height: 30rem;
+    margin: 2rem auto;
+    
+    
+}
+
+.img-perfil img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.informacion {
+    padding: 2rem 0rem;
+
+}
+
+.informacion  h1 {
+    font-size: 2rem;
+}
+
+.informacion p {
+    margin-top: 0.5rem;
+    font-family: 1.4rem;
+    color: black;
+}
+.estado{
+    margin: 2rem 0rem;
+
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+    font-size: 1.8rem;
+    color: black;
+}
+
+.redes {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0rem;
+}
+
+
+
+.perfil-img {
+   width: 57%;
+    height: 25rem;
+    background-color: rgb(219, 216, 216);
+    margin: auto;
+    margin-top: 4.3rem;
+    padding: 1.3rem;
+
+    position: relative;
+
+    
+
+}
+.perfil-img img{
+   width: 83%;
+  height: 25rem;
+   object-fit: cover;
+   /* object-position: bottom; */
+   border: 0.8rem solid rgb(255, 255, 255);
+
+   position: absolute;
+   top: -2rem;
+   left: 1.8rem;
+
+}    
+   
+   /*  height: 50%; */
+
+
+
+
+
+.Info {
+    font-family: 6rem;
+    color: black;
+}
+
+.info2 {
+    font-family: 6rem;
+    color: black;
+}
+
+.info3 {
+    font-family: 6rem;
+    color: black;
+}
+
+.viñetas {
+    gap: 2.5rem;
+    list-style-type: none;
+    margin: 0;
+    
+    padding: 0;
+    column-count: 2;
+}
+
+@media only screen and (min-width: 1366px) {
+    .Perfil {
+        width: 100%;
+        height: 10rem;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 55% 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    } 
+    .informacion {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .estado{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .redes{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .img-perfil {
+        grid-column: 2/3;
+        grid-row: 1/4;
+        margin: auto;
+      
+        
+
+    }
+}
+
+
+

@@ -1,0 +1,62 @@
+.boton-skills {
+    font-size: 1.7rem;
+
+   width: 35%;
+    height: 25%;
+    border-radius: 1.5rem;
+    background-color: rgb(194, 193, 193);
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Skills p {
+    font-size: 1.2rem;
+    margin: 2rem 0px;
+    color: black;
+    text-align: center;
+}
+
+.lista-skills {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0.6rem;
+    
+
+}
+
+.lista-skills img {
+    display: block;
+    margin: auto;
+  
+}
+
+.lista-skills p {
+    font-size: 1.6rem;
+    margin: 2rem 0px;
+    color: beige;
+    text-align: center;
+}
+
+.lista-skills div {
+    height: 10rem;
+}
+
+@media only screen and (min-width: 1200px) {
+    .Skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        margin: 10px auto;
+    }
+
+    .lista-skills {
+        grid-template-columns: repeat(8, 1fr);
+    }
+}
+

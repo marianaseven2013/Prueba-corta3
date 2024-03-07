@@ -1,0 +1,37 @@
+* {
+    
+}
+
+html {
+    font: 10px;
+    font-family: Calibri;
+
+}
+
+.pantalla {
+    max-width: 37.5rem; /* Maximo de pantalla */ /* por cada rem tiene son 10px  */
+    margin: auto;
+    padding: 1rem;
+    
+}
+
+ @media only screen and (min-width: 720px) {
+
+    .pantalla {
+       max-width: 72rem;
+       padding: 1rem 2rem;
+    }
+ }
+
+ @media  only screen and (min-width: 1200px) {
+    .pantalla {
+        max-width: 100%;
+        padding: 1rem 2rem;  
+    }
+    
+} 
+
+
+
+
+ 
